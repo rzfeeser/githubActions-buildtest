@@ -8,3 +8,9 @@ app = Flask(__name__)
 @app.route("/")     # decorator (default method is a GET)
 def hello():        # function to run when decorator is interacted with
     return "Hello, DevOps!"
+
+
+# define the root path of our API
+@app.route("/xmen97")     # decorator (default method is a GET)
+def xmen():        # function to run when decorator is interacted with
+    return "I think the next season drops in 2026"
